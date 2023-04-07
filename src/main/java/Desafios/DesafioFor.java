@@ -1,4 +1,4 @@
-package Desafio;
+package Desafios;
 
 // Não é permitido usar valor númerico
 public class DesafioFor {

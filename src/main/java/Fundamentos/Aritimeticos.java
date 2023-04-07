@@ -1,4 +1,4 @@
-package fundamentos;
+package Fundamentos;
 
 public class Aritimeticos {
     public static void main (String[] args){

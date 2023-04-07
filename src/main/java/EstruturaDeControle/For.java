@@ -1,4 +1,4 @@
-package controle;
+package EstruturaDeControle;
 
 public class For {
     public static void main(String[] args) {
