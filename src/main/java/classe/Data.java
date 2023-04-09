@@ -5,7 +5,19 @@ public class Data {
     int mes;
     int ano;
 
-    String obterDataFormatada(){
+    Data(int diaDefault, int mesDefault, int anoDefault) {
+        dia = diaDefault;
+        mes = mesDefault;
+        ano = anoDefault;
+    }
+
+    Data() {
+        dia = 1;
+        mes = 1;
+        ano = 1970;
+    }
+
+    String obterDataFormatada() {
         return String.format("%d/%d/%d", dia, mes, ano);
     }
 }
