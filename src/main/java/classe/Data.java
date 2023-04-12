@@ -5,10 +5,10 @@ public class Data {
     int mes;
     int ano;
 
-    Data(int diaDefault, int mesDefault, int anoDefault) {
-        dia = diaDefault;
-        mes = mesDefault;
-        ano = anoDefault;
+    Data(int dia, int mes, int ano) {
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 
     Data() {
