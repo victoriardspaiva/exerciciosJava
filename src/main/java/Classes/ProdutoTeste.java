@@ -1,4 +1,4 @@
-package classe;
+package Classes;
 
 public class ProdutoTeste {
     public static void main(String[] args) {
