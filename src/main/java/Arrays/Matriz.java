@@ -1,5 +1,8 @@
 package Arrays;
 
+import Desafios.Array;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Matriz {
@@ -25,6 +28,10 @@ public class Matriz {
 
         double media = total / (qtAlunos * qtNotas);
         System.out.println("Média da turma é " + media);
+
+        for(double[] notasDeAluno: notasDaTurma){
+            System.out.println(Arrays.toString(notasDeAluno));
+        }
 
         entrada.close();
     }
