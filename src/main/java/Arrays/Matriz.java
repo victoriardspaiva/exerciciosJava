@@ -1,7 +1,5 @@
 package Arrays;
 
-import Desafios.Array;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
