@@ -2,8 +2,17 @@ package oo.Heranca;
 
 public class Toro extends Carro{
 
-    @Override
-    void acelerar(){
-        velocidadeAtual += 15;
+    Toro(){
+        this(315);
     }
+
+    Toro(int velocidadeMaxima){
+        super(velocidadeMaxima);
+        delta = 500;
+    }
+
+//    @Override
+//    void acelerar(){
+//        velocidadeAtual += 15;
+//    }
 }
