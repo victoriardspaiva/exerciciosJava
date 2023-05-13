@@ -2,11 +2,11 @@ package oo.Heranca;
 
 public class Toro extends Carro{
 
-    Toro(){
+    public Toro(){
         this(315);
     }
 
-    Toro(int velocidadeMaxima){
+    public Toro(int velocidadeMaxima){
         super(velocidadeMaxima);
         delta = 500;
     }

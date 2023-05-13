@@ -1,4 +1,7 @@
-package oo.Heranca;
+package oo.CarroTeste;
+
+import oo.Heranca.Fusca;
+import oo.Heranca.Toro;
 
 public class Teste {
     public static void main(String[] args) {

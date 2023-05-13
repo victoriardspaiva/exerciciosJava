@@ -2,7 +2,7 @@ package oo.Heranca;
 
 public class Fusca extends Carro{
 
-    Fusca() {
+    public Fusca() {
         super(70);
 
     }
