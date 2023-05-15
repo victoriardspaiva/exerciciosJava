@@ -22,6 +22,12 @@ public class Teste {
         toro.frear();
         toro.acelerar();
         toro.acelerar();
+        toro.ligarAr();
+        toro.acelerar();
+//        toro.ligarTurbo();
+        toro.acelerar();
+        toro.desligarTurbo();
+
         System.out.println(toro.velocidadeAtual);
 
 

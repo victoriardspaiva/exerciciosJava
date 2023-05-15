@@ -2,7 +2,7 @@ package oo.heranca;
 
 public class Toro extends Carro implements Esportivo, Luxo{
 
-    private boolean ligarTurbo;
+    private boolean ligarTurbo; // de forma implicita essas variaveis estam com valor false
     private boolean ligarAr;
 
     public Toro(){
