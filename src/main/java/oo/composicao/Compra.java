@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Compra {
 
     String cliente;
-    ArrayList<Item> itens = new ArrayList<Item>();
+    ArrayList<Item> itens = new ArrayList<>();
 
     double obterValorTotal(){
         double total = 0;
